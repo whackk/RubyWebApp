@@ -1,3 +1,47 @@
+/*
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+* {
+	font-family: sans-serif;
+}
+.textbody {
+	margin-top: 50px;
+}
+h1, h2, h3, p, footer {
+	text-align: center;
+}
+.contact {
+	background-image: url("/assets/streetbike.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+	height: 100vh;
+	padding-top: 60px;
+}
+.contact h2, h3 {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.contact p {
+	font-size: 18px;
+}
+.adress {
+	margin-top: 70px;
+}
+.about {
+	height: 100vh;
+	background-color: #3A3333;
+	color: white;
+	padding-top: 25px;
+}
+.about p {
+	margin: 50px 0px;
+	font-size: 18px;
+}
+footer {
+	background-color: black;
+	color: lightgrey;
+}
