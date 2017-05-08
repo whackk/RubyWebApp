@@ -31,7 +31,7 @@ div .row {
 	border: 15px solid #3A3333;
 }
 .about {
-	background-image: url("/assets/bikepattern.jpg");
+	background-image: image-url("/assets/bikepattern.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -57,7 +57,7 @@ div .row {
 	color: navajowhite;
 }
 .contact {
-	background-image: url("/assets/streetbike.jpg");
+	background-image: image-url("/assets/streetbike.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
