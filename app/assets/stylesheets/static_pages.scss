@@ -42,9 +42,13 @@ div .row {
 }
 .abouttext {
 	background-color: #3A3333;
-	padding:30px;
+	padding:50px;
 	margin: 4vh;
 	border: 2px solid white;
+
+}
+.abouttext p {
+	padding: 0vh 4vh;
 }
 .abouttext h1 {
 	text-transform: uppercase;
@@ -100,7 +104,7 @@ div .row {
 	margin-top: 25px;
 }
 .about {
-	height: 100vh;
+	height: 100%;
 	background-color: #3A3333;
 	color: white;
 	padding-top: 25px;
@@ -113,4 +117,18 @@ footer {
 	background-color: black;
 	color: lightgrey;
 	width: inherit;
+}
+.minigame button {
+	background-color: #FA5858;
+	border: 2px solid #FA5858;
+	margin-top: 10px;
+	margin-bottom: -100px;
+}
+.minigame button:hover {
+	border: 2px solid white;
+}
+#gamefaq {
+	margin-left: 10vh;
+	margin-right: 10vh;
+	border: 2px solid #FA5858;
 }
